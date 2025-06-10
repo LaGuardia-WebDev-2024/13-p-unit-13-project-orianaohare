@@ -20,3 +20,53 @@ hr {
   height: 5px;
   background-color: black;
 }
+<style>
+.declaration {
+
+font: italic 20px fantasy; 
+  }
+
+.quote {
+
+
+font-style: italic;
+font-size: 16px;
+font-family: cursive;
+}
+</style>
+
+<style> 
+
+body {
+
+font-family: cursive;
+
+}
+
+.photo-gallery {
+background: rgb(255, 254, 217);
+  }
+
+.photo {
+width: 200px;
+margin: 20px;
+border: 5px solid lightblue;
+padding: 5px;
+
+}
+@font-face {
+font-family: star;
+src: url(https://cdn.glitch.global/8cc8b06c-dc56-4a85-a02c-55ebff436a23/Persona%20Aura.otf?v=1749577857008)}
+
+
+h1:hover {
+background-color: hotpink;
+color: white;
+font-family: star;
+}
+
+#snake-pic {
+  display: none;
+  width: 100%;
+  height: auto;
+}
